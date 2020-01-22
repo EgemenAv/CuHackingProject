@@ -1,0 +1,63 @@
+.inputarea{
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px; 
+    color: white;
+    background-color: rgba(40, 50, 50, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+    -webkit-transition: 0.5s ease-out;   
+    
+}
+.inputs{
+    background-image: -webkit-linear-gradient(rgba(97, 96, 93, 0.4), rgba(71, 67, 53, 0.164)),  url('../images/bg2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-control {
+    color: rgba(190, 186, 186, 0.918);
+}
+.table{
+    background-color: rgba(40, 50, 50, 0.5);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    list-style-type: square;
+    margin-top: 15vh;
+    color: white;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    
+}
+.tabTitle{
+    color: #262626;
+    font-weight: bold;
+    font-size: 3.0rem;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 5px;
+}
+.table-wrapper-scroll-y{
+    max-height: 300px;
+}
+#tableHead{
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 5px;
+    line-height: 1.6;
+    
+}
+.form-control:focus {
+    color: rgba(190, 186, 186, 0.918);
+}
+.inputarea:hover{
+    transform: scale(1.2);
+    background-color: rgba(40, 50, 50, 1.0);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+}
